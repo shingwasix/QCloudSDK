@@ -1,0 +1,1 @@
+../../../../../Officical-Sources/QCloudUploadSDK/TXYBase.h

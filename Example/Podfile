@@ -5,7 +5,7 @@ target 'QCloudSDK_Example' do
     pod 'QCloudSDK', :path => '../'
     pod 'QCloudSDK/Upload', :path => '../'
     pod 'QCloudSDK/Download', :path => '../'
-    
+
     target 'QCloudSDK_Tests' do
         inherit! :search_paths
         

@@ -31,19 +31,25 @@
   "subspecs": [
     {
       "name": "Upload",
-      "libraries": "stdc++.6",
-      "vendored_libraries": "Officical-Sources/QCloudDownloadSDK/*.a",
-      "public_header_files": "Officical-Sources/QCloudDownloadSDK/*.h"
+      "libraries": [
+        "stdc++.6",
+        "z"
+      ],
+      "source_files": "Officical-Sources/QCloudUploadSDK/*.h",
+      "vendored_libraries": "Officical-Sources/QCloudUploadSDK/*.a",
+      "public_header_files": "Officical-Sources/QCloudUploadSDK/*.h"
     },
     {
       "name": "Download",
       "frameworks": "MobileCoreServices",
       "libraries": [
+        "stdc++.6",
         "xml2",
         "z"
       ],
-      "vendored_libraries": "Officical-Sources/QCloudUploadSDK/*.a",
-      "public_header_files": "Officical-Sources/QCloudUploadSDK/*.h"
+      "source_files": "Officical-Sources/QCloudDownloadSDK/*.h",
+      "vendored_libraries": "Officical-Sources/QCloudDownloadSDK/*.a",
+      "public_header_files": "Officical-Sources/QCloudDownloadSDK/*.h"
     }
   ]
 }

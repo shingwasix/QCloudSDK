@@ -1,6 +1,6 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/QCloudSDK"
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../Officical-Sources/QCloudUploadSDK" $(inherited) "${PODS_ROOT}/../../Officical-Sources/QCloudDownloadSDK"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../Officical-Sources/QCloudDownloadSDK" $(inherited) "${PODS_ROOT}/../../Officical-Sources/QCloudUploadSDK"
 OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/QCloudSDK"
 OTHER_LDFLAGS = $(inherited) -ObjC -l"TXYDownloader" -l"TXYUploader" -l"stdc++.6" -l"xml2" -l"z" -framework "CoreTelephony" -framework "MobileCoreServices" -framework "SystemConfiguration"
 PODS_BUILD_DIR = $BUILD_DIR
