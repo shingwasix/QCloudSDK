@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B32EB8802CCCE54B2E5AB0C64AD85EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		766196C2DCF340342A669F43CA6DA18B /* Pods-QCloudSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEC1D6A2097D8B2C1B5AAF57E7B1A54 /* Pods-QCloudSDK_Tests-dummy.m */; };
+		D10D8435AE613523C49A73BC7066964A /* Pods-QCloudSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC9190C61211182771BC7CF3272B063 /* Pods-QCloudSDK_Example-dummy.m */; };
+		E92809D90C9178AC447990D8B3E6EA85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DE7B9B5EB1EB6894B41374C77B0830E /* Pods-QCloudSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QCloudSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		12A3474FF2CEB653E507307552D9825C /* Pods-QCloudSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QCloudSDK_Example-resources.sh"; sourceTree = "<group>"; };
+		294A3BFF855398B4515D61DC9CBA9B89 /* libTXYDownloader.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libTXYDownloader.a; path = "Officical-Sources/QCloudDownloadSDK/libTXYDownloader.a"; sourceTree = "<group>"; };
+		334A3EB9805A22DAD0E8744F6F716959 /* Pods-QCloudSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QCloudSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3D881566CC2F8C0795F4269DBBCC2C58 /* Pods-QCloudSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QCloudSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4BDD8AC1B92E229EE29FB9A5F6B4EB94 /* libPods-QCloudSDK_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QCloudSDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E6D5DFD2141DC00989824F23C51CE00 /* Pods-QCloudSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QCloudSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4F3AFEDCE5C62F15310AF0E184DEA6FC /* libTXYUploader.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libTXYUploader.a; path = "Officical-Sources/QCloudUploadSDK/libTXYUploader.a"; sourceTree = "<group>"; };
+		4F69B79380D7A356640CA569B02C14FB /* Pods-QCloudSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QCloudSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		51A10F96F2D1AC48CE6D283D92D74953 /* Pods-QCloudSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QCloudSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5EC9190C61211182771BC7CF3272B063 /* Pods-QCloudSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QCloudSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		7179612ED70CE4E25ED85D0E820DE028 /* Pods-QCloudSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QCloudSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7BEC1D6A2097D8B2C1B5AAF57E7B1A54 /* Pods-QCloudSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QCloudSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		88D42A854DA690C53BA019C938F33B4A /* Pods-QCloudSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QCloudSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B1B160F656420AB55038A663AB22CA89 /* libPods-QCloudSDK_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QCloudSDK_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0706F6BB6F974848EBE4500CDFC424C /* Pods-QCloudSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QCloudSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CA1DA97BB586FA51439344A84DC5B1A7 /* Pods-QCloudSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QCloudSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FABB35719C2C5542501BAA94B452B7F2 /* Pods-QCloudSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QCloudSDK_Tests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4037E1EA6CF8CF1303769A7EA4160B44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B32EB8802CCCE54B2E5AB0C64AD85EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480D418B09C406F2FB131EC2738DA8AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92809D90C9178AC447990D8B3E6EA85 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A5D0F15F57B6582E291AD86B471AA97 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C88B8FD78D43853BDE12761BFAD1AAC4 /* Pods-QCloudSDK_Example */,
+				6988D23374F623E8F0D7328D299E7AB8 /* Pods-QCloudSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1C3E0D4EFD935E7EEA6E52E73A4ED013 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BDD8AC1B92E229EE29FB9A5F6B4EB94 /* libPods-QCloudSDK_Example.a */,
+				B1B160F656420AB55038A663AB22CA89 /* libPods-QCloudSDK_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31F99AF81C486D9ED5C1B41FC78AB055 /* Download */ = {
+			isa = PBXGroup;
+			children = (
+				35B54CC4190D306C8C3BC1C5182ACBF3 /* Frameworks */,
+			);
+			name = Download;
+			sourceTree = "<group>";
+		};
+		32E3E1F59DF35D815A4FFB5269F17A95 /* Upload */ = {
+			isa = PBXGroup;
+			children = (
+				407772C916E23FEBC545AD4FC074E531 /* Frameworks */,
+			);
+			name = Upload;
+			sourceTree = "<group>";
+		};
+		35B54CC4190D306C8C3BC1C5182ACBF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F3AFEDCE5C62F15310AF0E184DEA6FC /* libTXYUploader.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35FEF441AF9C1B79B25B37240D5BEB75 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AAE81205F8F3F48721222FA9EDAB5D1 /* QCloudSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		407772C916E23FEBC545AD4FC074E531 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				294A3BFF855398B4515D61DC9CBA9B89 /* libTXYDownloader.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6988D23374F623E8F0D7328D299E7AB8 /* Pods-QCloudSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4E6D5DFD2141DC00989824F23C51CE00 /* Pods-QCloudSDK_Tests-acknowledgements.markdown */,
+				3D881566CC2F8C0795F4269DBBCC2C58 /* Pods-QCloudSDK_Tests-acknowledgements.plist */,
+				7BEC1D6A2097D8B2C1B5AAF57E7B1A54 /* Pods-QCloudSDK_Tests-dummy.m */,
+				0DE7B9B5EB1EB6894B41374C77B0830E /* Pods-QCloudSDK_Tests-frameworks.sh */,
+				FABB35719C2C5542501BAA94B452B7F2 /* Pods-QCloudSDK_Tests-resources.sh */,
+				CA1DA97BB586FA51439344A84DC5B1A7 /* Pods-QCloudSDK_Tests.debug.xcconfig */,
+				7179612ED70CE4E25ED85D0E820DE028 /* Pods-QCloudSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-QCloudSDK_Tests";
+			path = "Target Support Files/Pods-QCloudSDK_Tests";
+			sourceTree = "<group>";
+		};
+		7AAE81205F8F3F48721222FA9EDAB5D1 /* QCloudSDK */ = {
+			isa = PBXGroup;
+			children = (
+				31F99AF81C486D9ED5C1B41FC78AB055 /* Download */,
+				32E3E1F59DF35D815A4FFB5269F17A95 /* Upload */,
+			);
+			name = QCloudSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				35FEF441AF9C1B79B25B37240D5BEB75 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1C3E0D4EFD935E7EEA6E52E73A4ED013 /* Products */,
+				1A5D0F15F57B6582E291AD86B471AA97 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C88B8FD78D43853BDE12761BFAD1AAC4 /* Pods-QCloudSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4F69B79380D7A356640CA569B02C14FB /* Pods-QCloudSDK_Example-acknowledgements.markdown */,
+				51A10F96F2D1AC48CE6D283D92D74953 /* Pods-QCloudSDK_Example-acknowledgements.plist */,
+				5EC9190C61211182771BC7CF3272B063 /* Pods-QCloudSDK_Example-dummy.m */,
+				334A3EB9805A22DAD0E8744F6F716959 /* Pods-QCloudSDK_Example-frameworks.sh */,
+				12A3474FF2CEB653E507307552D9825C /* Pods-QCloudSDK_Example-resources.sh */,
+				88D42A854DA690C53BA019C938F33B4A /* Pods-QCloudSDK_Example.debug.xcconfig */,
+				C0706F6BB6F974848EBE4500CDFC424C /* Pods-QCloudSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-QCloudSDK_Example";
+			path = "Target Support Files/Pods-QCloudSDK_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CA5282827C71EF4C29B35DA16B2132A /* Pods-QCloudSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5CCFAAA51A1621679268990D873EB4 /* Build configuration list for PBXNativeTarget "Pods-QCloudSDK_Tests" */;
+			buildPhases = (
+				1BE362D0A9E2A5F6F3784DF72C8397C2 /* Sources */,
+				4037E1EA6CF8CF1303769A7EA4160B44 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-QCloudSDK_Tests";
+			productName = "Pods-QCloudSDK_Tests";
+			productReference = B1B160F656420AB55038A663AB22CA89 /* libPods-QCloudSDK_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		951A28EC0023E26CD20702E35ECCF255 /* Pods-QCloudSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD279E516500D71DE0F51767CE17F2FB /* Build configuration list for PBXNativeTarget "Pods-QCloudSDK_Example" */;
+			buildPhases = (
+				779E0F2791A99075FFC107AFF2E40316 /* Sources */,
+				480D418B09C406F2FB131EC2738DA8AA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-QCloudSDK_Example";
+			productName = "Pods-QCloudSDK_Example";
+			productReference = 4BDD8AC1B92E229EE29FB9A5F6B4EB94 /* libPods-QCloudSDK_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1C3E0D4EFD935E7EEA6E52E73A4ED013 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				951A28EC0023E26CD20702E35ECCF255 /* Pods-QCloudSDK_Example */,
+				2CA5282827C71EF4C29B35DA16B2132A /* Pods-QCloudSDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BE362D0A9E2A5F6F3784DF72C8397C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				766196C2DCF340342A669F43CA6DA18B /* Pods-QCloudSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779E0F2791A99075FFC107AFF2E40316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10D8435AE613523C49A73BC7066964A /* Pods-QCloudSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2EE2BF9F145F71244CEA1457FE5CEE2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA1DA97BB586FA51439344A84DC5B1A7 /* Pods-QCloudSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		761F9645D560CC34737A7744FD214962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A38EEA99532458F1F77E26747DFA5990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88D42A854DA690C53BA019C938F33B4A /* Pods-QCloudSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C88B209B00B44800A0C4FC805677FC72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E826E5ED0D06D79B6B754F5AF129DB0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7179612ED70CE4E25ED85D0E820DE028 /* Pods-QCloudSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E8CC66F25BCA36AF96BB6C23F56A6692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0706F6BB6F974848EBE4500CDFC424C /* Pods-QCloudSDK_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88B209B00B44800A0C4FC805677FC72 /* Debug */,
+				761F9645D560CC34737A7744FD214962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD279E516500D71DE0F51767CE17F2FB /* Build configuration list for PBXNativeTarget "Pods-QCloudSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38EEA99532458F1F77E26747DFA5990 /* Debug */,
+				E8CC66F25BCA36AF96BB6C23F56A6692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB5CCFAAA51A1621679268990D873EB4 /* Build configuration list for PBXNativeTarget "Pods-QCloudSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EE2BF9F145F71244CEA1457FE5CEE2C /* Debug */,
+				E826E5ED0D06D79B6B754F5AF129DB0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

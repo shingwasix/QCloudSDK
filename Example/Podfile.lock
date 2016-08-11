@@ -1,0 +1,22 @@
+PODS:
+  - QCloudSDK (1.1.4.1):
+    - QCloudSDK/Download (= 1.1.4.1)
+    - QCloudSDK/Upload (= 1.1.4.1)
+  - QCloudSDK/Download (1.1.4.1)
+  - QCloudSDK/Upload (1.1.4.1)
+
+DEPENDENCIES:
+  - QCloudSDK (from `../`)
+  - QCloudSDK/Download (from `../`)
+  - QCloudSDK/Upload (from `../`)
+
+EXTERNAL SOURCES:
+  QCloudSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QCloudSDK: 0fdd6b9980b335d10228cca809cfd39e00fff3f6
+
+PODFILE CHECKSUM: 39dc5f369987dff65782c35d4890105f3b34321d
+
+COCOAPODS: 1.0.1

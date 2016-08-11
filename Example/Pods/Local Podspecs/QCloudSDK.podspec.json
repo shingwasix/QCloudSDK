@@ -1,0 +1,49 @@
+{
+  "name": "QCloudSDK",
+  "version": "1.1.4.1",
+  "summary": "QCloud SDK for iOS.",
+  "homepage": "https://github.com/shingwasix/QCloudSDK",
+  "license": {
+    "type": "Copyright",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Shingwa Six": "http://github.com/shingwasix"
+  },
+  "source": {
+    "git": "https://github.com/shingwasix/QCloudSDK.git",
+    "tag": "1.1.4.1"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "frameworks": [
+    "SystemConfiguration",
+    "CoreTelephony"
+  ],
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "-lObjC"
+  },
+  "default_subspecs": [
+    "Upload",
+    "Download"
+  ],
+  "subspecs": [
+    {
+      "name": "Upload",
+      "libraries": "stdc++.6",
+      "vendored_libraries": "Officical-Sources/QCloudDownloadSDK/*.a",
+      "public_header_files": "Officical-Sources/QCloudDownloadSDK/*.h"
+    },
+    {
+      "name": "Download",
+      "frameworks": "MobileCoreServices",
+      "libraries": [
+        "xml2",
+        "z"
+      ],
+      "vendored_libraries": "Officical-Sources/QCloudUploadSDK/*.a",
+      "public_header_files": "Officical-Sources/QCloudUploadSDK/*.h"
+    }
+  ]
+}
