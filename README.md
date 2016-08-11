@@ -1,6 +1,6 @@
 # QCloudSDK
 
-[![CI Status](http://img.shields.io/travis/Shingwa Six/QCloudSDK.svg?style=flat)](https://travis-ci.org/Shingwa Six/QCloudSDK)
+[![CI Status](http://img.shields.io/travis/shingwasix/QCloudSDK.svg?style=flat)](https://travis-ci.org/shingwasix/QCloudSDK)
 [![Version](https://img.shields.io/cocoapods/v/QCloudSDK.svg?style=flat)](http://cocoapods.org/pods/QCloudSDK)
 [![License](https://img.shields.io/cocoapods/l/QCloudSDK.svg?style=flat)](http://cocoapods.org/pods/QCloudSDK)
 [![Platform](https://img.shields.io/cocoapods/p/QCloudSDK.svg?style=flat)](http://cocoapods.org/pods/QCloudSDK)
