@@ -16,26 +16,26 @@
 /* Begin PBXFileReference section */
 		0DE7B9B5EB1EB6894B41374C77B0830E /* Pods-QCloudSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QCloudSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		12A3474FF2CEB653E507307552D9825C /* Pods-QCloudSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QCloudSDK_Example-resources.sh"; sourceTree = "<group>"; };
-		30C121ACDF845D638F282F0DC9471612 /* TXYDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TXYDownloader.h; sourceTree = "<group>"; };
+		16B8C621DB65209B39CF26BF7AB9263F /* TXYUploadManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXYUploadManager.h; path = "qcloud-image-ios-v1.1.4.2/QCloudUploadSDK/TXYUploadManager.h"; sourceTree = "<group>"; };
+		21EBE810AA10E48A54A114E21CFADE50 /* libTXYDownloader.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libTXYDownloader.a; path = "qcloud-image-ios-v1.1.4.2/QCloudDownloadSDK/真机&模拟器/QCloudDownloadSDK/libTXYDownloader.a"; sourceTree = "<group>"; };
 		334A3EB9805A22DAD0E8744F6F716959 /* Pods-QCloudSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QCloudSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3D881566CC2F8C0795F4269DBBCC2C58 /* Pods-QCloudSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QCloudSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4BDD8AC1B92E229EE29FB9A5F6B4EB94 /* libPods-QCloudSDK_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QCloudSDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E528159161EC33AF5931513C455EA69 /* TXYBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TXYBase.h; sourceTree = "<group>"; };
 		4E6D5DFD2141DC00989824F23C51CE00 /* Pods-QCloudSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QCloudSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4F69B79380D7A356640CA569B02C14FB /* Pods-QCloudSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QCloudSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		51A10F96F2D1AC48CE6D283D92D74953 /* Pods-QCloudSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QCloudSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5AF25F0A0893F8B25137716800439A24 /* TXYUploadManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TXYUploadManager.h; sourceTree = "<group>"; };
 		5EC9190C61211182771BC7CF3272B063 /* Pods-QCloudSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QCloudSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		7179612ED70CE4E25ED85D0E820DE028 /* Pods-QCloudSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QCloudSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7BEC1D6A2097D8B2C1B5AAF57E7B1A54 /* Pods-QCloudSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QCloudSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		80237004723D6CD9F9B964480015D0A3 /* TXYBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXYBase.h; path = "qcloud-image-ios-v1.1.4.2/QCloudUploadSDK/TXYBase.h"; sourceTree = "<group>"; };
 		88D42A854DA690C53BA019C938F33B4A /* Pods-QCloudSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QCloudSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A4B24772AF3EC7CE43E8940BCE77C3E7 /* libTXYUploader.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libTXYUploader.a; path = "Officical-Sources/QCloudUploadSDK/libTXYUploader.a"; sourceTree = "<group>"; };
 		B1B160F656420AB55038A663AB22CA89 /* libPods-QCloudSDK_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QCloudSDK_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B77FC79847320C35B274F071ED2DC020 /* libTXYDownloader.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libTXYDownloader.a; path = "Officical-Sources/QCloudDownloadSDK/libTXYDownloader.a"; sourceTree = "<group>"; };
+		B439A8861559F26A32606094AB239914 /* TXYDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXYDownloader.h; path = "qcloud-image-ios-v1.1.4.2/QCloudDownloadSDK/真机&模拟器/QCloudDownloadSDK/Headers/TXYDownloader.h"; sourceTree = "<group>"; };
 		C0706F6BB6F974848EBE4500CDFC424C /* Pods-QCloudSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QCloudSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CA1DA97BB586FA51439344A84DC5B1A7 /* Pods-QCloudSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QCloudSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D499EA09B80AA3B8B459CA1A04687F56 /* libTXYUploader.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libTXYUploader.a; path = "qcloud-image-ios-v1.1.4.2/QCloudUploadSDK/bitcode/真机&模拟器/libTXYUploader.a"; sourceTree = "<group>"; };
 		FABB35719C2C5542501BAA94B452B7F2 /* Pods-QCloudSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QCloudSDK_Tests-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,25 +59,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02DEA0D48F71300D86C0B0B83855F1A0 /* QCloudSDK */ = {
-			isa = PBXGroup;
-			children = (
-				120A1446E5C711E1B03B91E84A403D94 /* Download */,
-				5D6D10FA1D181273AB4926153D04F2B8 /* Upload */,
-			);
-			name = QCloudSDK;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		120A1446E5C711E1B03B91E84A403D94 /* Download */ = {
-			isa = PBXGroup;
-			children = (
-				68DA6C696F6C24D2A85C4C35E18E4931 /* Frameworks */,
-				FB467373D612B7A9D09ADE8ACB08A06B /* Officical-Sources */,
-			);
-			name = Download;
-			sourceTree = "<group>";
-		};
 		1A5D0F15F57B6582E291AD86B471AA97 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +66,14 @@
 				6988D23374F623E8F0D7328D299E7AB8 /* Pods-QCloudSDK_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1AF6145D39DF22B2EE0F3699B48A684F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD22A35ECC77A978EAF92FA3641CFD24 /* QCloudSDK */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		1C3E0D4EFD935E7EEA6E52E73A4ED013 /* Products */ = {
@@ -96,20 +85,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		22CABF51C2F70DC1874A26A7A40A2147 /* QCloudDownloadSDK */ = {
+		351DA5575FCB50F2C96A320D82DE4071 /* Upload */ = {
 			isa = PBXGroup;
 			children = (
-				30C121ACDF845D638F282F0DC9471612 /* TXYDownloader.h */,
+				80237004723D6CD9F9B964480015D0A3 /* TXYBase.h */,
+				16B8C621DB65209B39CF26BF7AB9263F /* TXYUploadManager.h */,
+				E57D69B0AD93BC902E7C306B95A84E24 /* Frameworks */,
 			);
-			path = QCloudDownloadSDK;
-			sourceTree = "<group>";
-		};
-		35FEF441AF9C1B79B25B37240D5BEB75 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				02DEA0D48F71300D86C0B0B83855F1A0 /* QCloudSDK */,
-			);
-			name = "Development Pods";
+			name = Upload;
 			sourceTree = "<group>";
 		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
@@ -120,27 +103,10 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5D6D10FA1D181273AB4926153D04F2B8 /* Upload */ = {
+		535C7E77D3085925BD6972C53187FA54 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6357F397120BF3DC4516EE6DBEAE25A8 /* Frameworks */,
-				8D0D5A833F47D17503C71BFE4145E65D /* Officical-Sources */,
-			);
-			name = Upload;
-			sourceTree = "<group>";
-		};
-		6357F397120BF3DC4516EE6DBEAE25A8 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A4B24772AF3EC7CE43E8940BCE77C3E7 /* libTXYUploader.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		68DA6C696F6C24D2A85C4C35E18E4931 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B77FC79847320C35B274F071ED2DC020 /* libTXYDownloader.a */,
+				21EBE810AA10E48A54A114E21CFADE50 /* libTXYDownloader.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -164,28 +130,20 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				35FEF441AF9C1B79B25B37240D5BEB75 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1AF6145D39DF22B2EE0F3699B48A684F /* Pods */,
 				1C3E0D4EFD935E7EEA6E52E73A4ED013 /* Products */,
 				1A5D0F15F57B6582E291AD86B471AA97 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8D0D5A833F47D17503C71BFE4145E65D /* Officical-Sources */ = {
+		934FF108D8DB9ED4266AC1758759CFC4 /* Download */ = {
 			isa = PBXGroup;
 			children = (
-				940FC7C6DCF39745D661368616E43D5E /* QCloudUploadSDK */,
+				B439A8861559F26A32606094AB239914 /* TXYDownloader.h */,
+				535C7E77D3085925BD6972C53187FA54 /* Frameworks */,
 			);
-			path = "Officical-Sources";
-			sourceTree = "<group>";
-		};
-		940FC7C6DCF39745D661368616E43D5E /* QCloudUploadSDK */ = {
-			isa = PBXGroup;
-			children = (
-				4E528159161EC33AF5931513C455EA69 /* TXYBase.h */,
-				5AF25F0A0893F8B25137716800439A24 /* TXYUploadManager.h */,
-			);
-			path = QCloudUploadSDK;
+			name = Download;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -211,12 +169,21 @@
 			path = "Target Support Files/Pods-QCloudSDK_Example";
 			sourceTree = "<group>";
 		};
-		FB467373D612B7A9D09ADE8ACB08A06B /* Officical-Sources */ = {
+		DD22A35ECC77A978EAF92FA3641CFD24 /* QCloudSDK */ = {
 			isa = PBXGroup;
 			children = (
-				22CABF51C2F70DC1874A26A7A40A2147 /* QCloudDownloadSDK */,
+				934FF108D8DB9ED4266AC1758759CFC4 /* Download */,
+				351DA5575FCB50F2C96A320D82DE4071 /* Upload */,
 			);
-			path = "Officical-Sources";
+			path = QCloudSDK;
+			sourceTree = "<group>";
+		};
+		E57D69B0AD93BC902E7C306B95A84E24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D499EA09B80AA3B8B459CA1A04687F56 /* libTXYUploader.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -7,11 +7,11 @@
 
 ## Introduction
 
-此为非官方整理用于使用 CocoaPods 部署的项目，其中Official-Sources文件夹下的文件为腾讯云官方网站上下载的SDK文件。为了减小仓库大小，Official-Sources里只保留必要的静态库和头文件。
+此为非官方整理用于使用 CocoaPods 部署腾讯云对象存储SDK的项目
 
 ## Version
 
-v1.1.4.1
+v1.1.4.2
 
 ## Requirements
 

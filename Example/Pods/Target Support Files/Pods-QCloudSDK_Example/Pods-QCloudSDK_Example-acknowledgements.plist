@@ -14,19 +14,7 @@
 		</dict>
 		<dict>
 			<key>FooterText</key>
-			<string>### QCloudSDK
-
-Copyright &#169;2013-2016 Qcloud.com. All rights reserved.
-
-### QCloudSDK.podspec
-
-Licensed under the [MIT License]
-
-Copyright &#169;2016 [Shingwa Six]
-
-[CocoaPods]: http://cocoapods.org/
-[MIT License]: http://creativecommons.org/licenses/MIT/
-[Shingwa Six]: https://github.com/shingwasix</string>
+			<string>Copyright &#169;2013-2016 Qcloud.com</string>
 			<key>Title</key>
 			<string>QCloudSDK</string>
 			<key>Type</key>

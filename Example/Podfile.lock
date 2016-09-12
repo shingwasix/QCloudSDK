@@ -1,22 +1,18 @@
 PODS:
-  - QCloudSDK (1.1.4.1):
-    - QCloudSDK/Download (= 1.1.4.1)
-    - QCloudSDK/Upload (= 1.1.4.1)
-  - QCloudSDK/Download (1.1.4.1)
-  - QCloudSDK/Upload (1.1.4.1)
+  - QCloudSDK (1.1.4.2):
+    - QCloudSDK/Download (= 1.1.4.2)
+    - QCloudSDK/Upload (= 1.1.4.2)
+  - QCloudSDK/Download (1.1.4.2)
+  - QCloudSDK/Upload (1.1.4.2)
 
 DEPENDENCIES:
-  - QCloudSDK (from `../`)
-  - QCloudSDK/Download (from `../`)
-  - QCloudSDK/Upload (from `../`)
-
-EXTERNAL SOURCES:
-  QCloudSDK:
-    :path: "../"
+  - QCloudSDK (= 1.1.4.2)
+  - QCloudSDK/Download (= 1.1.4.2)
+  - QCloudSDK/Upload (= 1.1.4.2)
 
 SPEC CHECKSUMS:
-  QCloudSDK: 637bcbf4276b4c02ea71af3b675606d06c3c023a
+  QCloudSDK: 037a72a421bcf71f38303ea359948e10a6c32226
 
-PODFILE CHECKSUM: dbd49db1abfda413ce82ecc9de23c14fa4acd7b6
+PODFILE CHECKSUM: 77540e98476227bcfc281ba31f215958ad88b27f
 
 COCOAPODS: 1.0.1

@@ -1,1 +1,1 @@
-../../../../../Officical-Sources/QCloudDownloadSDK/TXYDownloader.h
+../../../QCloudSDK/qcloud-image-ios-v1.1.4.2/QCloudDownloadSDK/真机&模拟器/QCloudDownloadSDK/Headers/TXYDownloader.h

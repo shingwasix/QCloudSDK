@@ -1,1 +1,1 @@
-../../../../../Officical-Sources/QCloudUploadSDK/TXYUploadManager.h
+../../../QCloudSDK/qcloud-image-ios-v1.1.4.2/QCloudUploadSDK/TXYUploadManager.h
